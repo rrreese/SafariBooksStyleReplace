@@ -19,8 +19,7 @@
 	
 	function initStyleReplace() {
 		(window.myBookmarklet = function() {
-			$(".reader").css("font-family", "Verdana");
-			$(".htmlcontent").css("font-family", "Arial");
+			$(".htmlcontent").css("font-family", "Verdana");
 		})();
 	}
 
