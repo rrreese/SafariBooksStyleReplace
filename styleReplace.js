@@ -20,6 +20,9 @@
 	function initStyleReplace() {
 		(window.myBookmarklet = function() {
 			$(".htmlcontent").css("font-family", "Verdana");
+			
+			//This removes the floating div that apears when you select text
+			BvD.Layer = function(){}
 		})();
 	}
 
